@@ -1,0 +1,47 @@
+Загружено логов: 28
+
+Активность IP:
+src_ip
+192.168.1.10     5
+185.220.101.1    5
+203.0.113.45     4
+45.33.32.156     4
+10.0.0.15        3
+192.168.1.40     3
+192.168.1.20     2
+192.168.1.30     2
+Name: count, dtype: int64
+
+Подозрительные IP:
+['192.168.1.10', '185.220.101.1', '203.0.113.45', '45.33.32.156']
+
+Проверка IP 192.168.1.10 через VirusTotal...
+
+Проверка IP 185.220.101.1 через VirusTotal...
+
+Проверка IP 203.0.113.45 через VirusTotal...
+
+Проверка IP 45.33.32.156 через VirusTotal...
+
+VirusTotal результаты:
+{'192.168.1.10': 0, '185.220.101.1': 18, '203.0.113.45': 0, '45.33.32.156': 5}
+⚠️ Угроза обнаружена: 185.220.101.1
+🚫 Имитация блокировки IP 185.220.101.1
+⚠️ Угроза обнаружена: 45.33.32.156
+🚫 Имитация блокировки IP 45.33.32.156
+
+Обнаруженные атаки:
+           src_ip                 signature
+12  185.220.101.1  Possible SSH brute force
+13  185.220.101.1  Possible SSH brute force
+14  185.220.101.1  Possible SSH brute force
+15  185.220.101.1  Possible SSH brute force
+16  185.220.101.1  Possible SSH brute force
+17   203.0.113.45     SQL Injection attempt
+18   203.0.113.45     SQL Injection attempt
+19   203.0.113.45     SQL Injection attempt
+20   203.0.113.45     SQL Injection attempt
+24   45.33.32.156    Port scanning detected
+25   45.33.32.156    Port scanning detected
+26   45.33.32.156    Port scanning detected
+27   45.33.32.156    Port scanning detected
